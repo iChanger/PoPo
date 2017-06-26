@@ -16,48 +16,61 @@
     </head>
 
     <body>
-      <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">PoPo</a>
+      <div class = "bg">
+        <div class = "rest">
+          <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">PoPo</a>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item box">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item active box">
-              <a class="nav-link" href="#">Know Your Rights <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item box">
-              <a class="nav-link" href="#">Submit A Report</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">View Our Data</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><div class="fa fa-search"></div></button>
-          </form>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item box">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item active box">
+                  <a class="nav-link" href="#">Know Your Rights <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item box">
+                  <a class="nav-link" href="formPage.html">Submit A Report</a>
+                </li>
+                <li class="nav-item box">
+                  <a class="nav-link disabled" href="#">View Our Data</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><div class="fa fa-search"></div></button>
+              </form>
+            </div>
+          </nav>
+
+          <div id ="fade-in" class="container">
+            <h1 class="header"> Know Your Rights </h1>
+          </div>
+
+          <div class="block-blue text-center" style="margin-top: 30px">
+            <button href="#showSearch" class="btn btn-outline-success" data-toggle="collapse"> <h1 class="text-center"> Search Offense/Violation </h1> </button>
+            <div id="showSearch" class="collapse rborder container" style="margin-top: 20px">
+                <p> Civil <br> Traffic <br> Criminal <br> Immigration </p>
+            </div>
+          </div>
+
+          <div class="block-plain text-center">
+            <button href="#showConnect" class="btn btn-outline-success" data-toggle="collapse"> <h1 class="text-center"> Connect to Resources </h1> </button>
+            <div id="showConnect" class="collapse rborder container" style="margin-top: 20px">
+                <p> Ton Yards <br> Police Stations <br> Courthouses <br> Immigration: Sanctuary Sites </p>
+            </div>
+          </div>
+
+          <div class="block-red text-center">
+            <button href="#showAttorney" class="btn btn-outline-success" data-toggle="collapse"> <h1 class="text-center"> Attorneys in your Area </h1> </button>
+            <div id="showAttorney" class="collapse rborder container" style="margin-top: 20px">
+                <p> Ton Yards <br> Police Stations <br> Courthouses <br> Immigration: Sanctuary Sites </p>
+            </div>
+          </div>
         </div>
-      </nav>
-
-      <div id ="fade-in" class="container">
-        <h1 class="header"> Know Your Rights </h1>
-      </div>
-
-      <div class="block-blue" style="margin-top: 30px">
-
-      </div>
-
-      <div class="block-plain">
-
-      </div>
-
-      <div class="block-red">
-
       </div>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
